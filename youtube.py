@@ -45,5 +45,5 @@ def youtube():
             return url
 #print(youtube())
 link= youtube()
-subprocess.call(['bash',"thetest.sh",link,sys.argv[1] ])
+subprocess.call(['bash',"youtube.sh",link,sys.argv[1] ])
 
