@@ -6,7 +6,7 @@ then
     echo "what do you want to search?"
     read name
     echo "searching $name"
-    python youtube_scrap.py "$name"
+    python youtube.py "$name"
 else
     echo "playing $2 in youtube"
     mpv $1
