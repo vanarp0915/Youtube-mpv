@@ -25,7 +25,7 @@ def youtube():
     options.add_argument('--ignore-certificate-errors')
     options.add_argument('--incognito')
     options.add_argument('--headless')
-    driver = webdriver.Chrome("/home/vanarp/mycroft-core/.venv/lib/chromium-browser/chromedriver", chrome_options=options)
+    driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver", chrome_options=options)
 
     query = urllib.parse.quote(search)
     link = "https://www.youtube.com/results?search_query=" + query
