@@ -1,4 +1,4 @@
-# Youtube-mpv
+# Youtube-mpv-scraping
 A script to play youtube videos from the terminal using mpv player
 
 # Installation:
